@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cfcfcf;
+}
+.tudo{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 20px;
+}
+
+
+
+.container{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+img{
+    height: 120px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+/* pseudoelemento aplicado ao h1 adicionando conteudo antes */
+
+h1::before{
+    content: "Tema ";
+    font-weight: 900;
+    color: blueviolet;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin: 2px;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 10px;
+    transition: background-color 0.5s;
+}
+
+nav ul li a:hover{
+    background-color: rgba(127, 255, 212, 0.233);
+}
+
+nav ul li a:active{
+    background-color: darkcyan;
+}
+
+nav ul li a:active{
+    background-color: #325a3b;
+    color: brown;
+}
+
+p::first-letter{
+    font-size: 1.3em;
+}
+
+footer{
+    background-color: blueviolet;
+    color: #ffffff;
+    text-align: center;
+}
+
+
